@@ -1,0 +1,176 @@
+I-Logix-RPY-Archive version 8.15.0 * 202411191641
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 52;
+	- value = "DefaultComponent/DefaultConfig/Contoller.cpp" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Contoller.h" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Default.cpp" 6.9.2026::17:16:12
+	"DefaultComponent/DefaultConfig/Default.h" 6.9.2026::17:16:12
+	"DefaultComponent/DefaultConfig/Detector.cpp" 6.9.2026::17:17:20
+	"DefaultComponent/DefaultConfig/Detector.h" 6.9.2026::17:17:20
+	"DefaultComponent/DefaultConfig/Display.cpp" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Display.h" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Drive.cpp" 6.9.2026::17:17:42
+	"DefaultComponent/DefaultConfig/Drive.h" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Enviroment.cpp" 6.9.2026::16:0:12
+	"DefaultComponent/DefaultConfig/Enviroment.h" 6.9.2026::16:0:12
+	"DefaultComponent/DefaultConfig/Keyboard.cpp" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Keyboard.h" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Lamp.cpp" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Lamp.h" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Module.cpp" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Module.h" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Operator.cpp" 6.9.2026::16:0:12
+	"DefaultComponent/DefaultConfig/Operator.h" 6.9.2026::16:0:12
+	"DefaultComponent/DefaultConfig/Owner.cpp" 6.9.2026::16:0:12
+	"DefaultComponent/DefaultConfig/Owner.h" 6.9.2026::16:0:12
+	"DefaultComponent/DefaultConfig/Receiver.cpp" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Receiver.h" 6.9.2026::16:53:49
+	"DefaultComponent/DefaultConfig/Serviceman.cpp" 6.9.2026::16:0:12
+	"DefaultComponent/DefaultConfig/Serviceman.h" 6.9.2026::16:0:12
+	"DefaultComponent\\DefaultConfig\\Contoller.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Contoller.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Default.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Default.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Detector.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Detector.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Display.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Display.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Drive.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Drive.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Enviroment.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Enviroment.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Keyboard.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Keyboard.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Lamp.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Lamp.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Module.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Module.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Operator.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Operator.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Owner.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Owner.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Receiver.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Receiver.h" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Serviceman.cpp" 6.9.2026::15:54:19
+	"DefaultComponent\\DefaultConfig\\Serviceman.h" 6.9.2026::15:54:19
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID 418a8493-9a23-4a04-a720-6f523fb457c2" "GUID b42e1697-bad2-4259-b86a-e76b603c18e8"
+	"GUID 70986d47-9059-4318-8d9a-3a5b88aa1ff2" "GUID b42e1697-bad2-4259-b86a-e76b603c18e8"
+	
+}
+- size = 14;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Enviroment";
+	- _id = GUID 60f91080-7036-48d1-908e-0426735bcaf3;
+}
+- genTime = 6.9.2026::16:0:12;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\Gate_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 0d2dc411-ee43-427b-be76-0d881d66e882;
+}
+- genTime = 6.9.2026::17:21:27;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Keyboard";
+	- _id = GUID b1675efd-aabd-440e-9002-0630355223ef;
+}
+- genTime = 6.9.2026::17:10:45;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Receiver";
+	- _id = GUID 051ea008-fbb4-4028-b149-26ca6bef0c6e;
+}
+- genTime = 6.9.2026::17:10:45;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Operator";
+	- _id = GUID b9c0ed81-bb1f-46eb-b132-f39241c43c4d;
+}
+- genTime = 6.9.2026::16:0:12;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Display";
+	- _id = GUID 2842355e-e228-4923-a445-cfdda9476f05;
+}
+- genTime = 6.9.2026::17:10:45;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Serviceman";
+	- _id = GUID 0809f861-ae9c-4f04-b570-dbe415cd786c;
+}
+- genTime = 6.9.2026::16:0:12;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Module";
+	- _id = GUID 22b5e505-064f-47b9-9036-d7fca2837277;
+}
+- genTime = 6.9.2026::17:10:45;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Detector";
+	- _id = GUID 917ef8d3-d5ba-4269-a250-758b8784184c;
+}
+- genTime = 6.9.2026::17:17:20;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _name = "Default";
+	- _id = GUID 70986d47-9059-4318-8d9a-3a5b88aa1ff2;
+}
+- genTime = 6.9.2026::17:16:12;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Contoller";
+	- _id = GUID fa970a1c-670f-43e6-8452-81ba7364c2dd;
+}
+- genTime = 6.9.2026::17:16:12;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Lamp";
+	- _id = GUID a5b062db-ffed-4289-87bb-70c84bcd20d6;
+}
+- genTime = 6.9.2026::17:16:12;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Owner";
+	- _id = GUID 6a40af68-a45d-4bbf-ba07-e9bc5c7bf872;
+}
+- genTime = 6.9.2026::16:0:12;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Gate_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "Drive";
+	- _id = GUID d9d9ae1e-9860-4958-bfa2-610fa8f95cd8;
+}
+- genTime = 6.9.2026::17:17:42;
+
