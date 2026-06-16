@@ -1,0 +1,8 @@
+C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/Lab3.dir
+C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/edit_cache.dir
+C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/rebuild_cache.dir
+C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/list_install_components.dir
+C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/install.dir
+C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/install/local.dir
+C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/Lab3_autogen_timestamp_deps.dir
+C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/Lab3_autogen.dir

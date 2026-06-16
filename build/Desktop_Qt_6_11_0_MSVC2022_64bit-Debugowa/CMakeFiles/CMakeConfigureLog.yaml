@@ -1,0 +1,323 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.17763 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/Programy/Microsoft Visual Studio/18/Professional/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.50.35728 dla x64
+      Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.50.35728.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Uwaga: w tym pliku:  C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Uwaga: w tym pliku:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-yawi9d"
+      binary: "C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-yawi9d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-yawi9d'
+        
+        Run Build Command(s): E:/Programy/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_e4f19\\fast
+        jom: parallel job execution disabled for Makefile
+        	E:\\Programy\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_e4f19.dir\\build.make /nologo -L CMakeFiles\\cmTC_e4f19.dir\\build
+        Building CXX object CMakeFiles/cmTC_e4f19.dir/CMakeCXXCompilerABI.cpp.obj
+        	E:\\Programy\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_e4f19.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-yawi9d --filter-prefix="Uwaga: w tym pliku:  " -- "E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\LABPOI~1\\AppData\\Local\\Temp\\1\\CMakeCXXCompilerABI.cpp.obj.7300.0.jom
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_e4f19.exe
+        	E:\\Programy\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e4f19.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- "E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_e4f19.dir\\objects1.rsp @C:\\Users\\LABPOI~1\\AppData\\Local\\Temp\\1\\cmTC_e4f19.exe.7300.641.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_e4f19.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_e4f19.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_e4f19.dir/manifest.res CMakeFiles\\cmTC_e4f19.dir/manifest.rc
+        LINK Pass 1:
+        E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_e4f19.dir\\objects1.rsp /out:cmTC_e4f19.exe /implib:cmTC_e4f19.lib /pdb:C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-yawi9d\\cmTC_e4f19.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e4f19.dir/intermediate.manifest CMakeFiles\\cmTC_e4f19.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_e4f19.dir/intermediate.manifest /out:CMakeFiles\\cmTC_e4f19.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_e4f19.dir/manifest.res CMakeFiles\\cmTC_e4f19.dir/manifest.rc
+        FINAL LINK:
+        E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_e4f19.dir\\objects1.rsp /out:cmTC_e4f19.exe /implib:cmTC_e4f19.lib /pdb:C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-yawi9d\\cmTC_e4f19.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e4f19.dir/intermediate.manifest CMakeFiles\\cmTC_e4f19.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': E:/Programy/Microsoft Visual Studio/18/Professional/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "E:/Programy/Microsoft Visual Studio/18/Professional/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35728.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:185 (include)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-d6bkkq"
+      binary: "C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-d6bkkq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-d6bkkq'
+        
+        Run Build Command(s): E:/Programy/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_aef60\\fast
+        jom: parallel job execution disabled for Makefile
+        	E:\\Programy\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_aef60.dir\\build.make /nologo -L CMakeFiles\\cmTC_aef60.dir\\build
+        Building CXX object CMakeFiles/cmTC_aef60.dir/src.cxx.obj
+        	E:\\Programy\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_aef60.dir\\src.cxx.obj.d --working-dir=C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-d6bkkq --filter-prefix="Uwaga: w tym pliku:  " -- "E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\LABPOI~1\\AppData\\Local\\Temp\\1\\src.cxx.obj.5344.0.jom
+        src.cxx
+        C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-d6bkkq\\src.cxx(1): fatal error C1083: Nie mo┼╝na otworzy─ç pliku do┼é─ůcz: 'pthread.h': No such file or directory
+        jom: C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-d6bkkq\\CMakeFiles\\cmTC_aef60.dir\\build.make [CMakeFiles\\cmTC_aef60.dir\\src.cxx.obj] Error 2
+        jom: C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-d6bkkq\\Makefile [cmTC_aef60\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:185 (include)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-gxofyl"
+      binary: "C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-gxofyl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-gxofyl'
+        
+        Run Build Command(s): E:/Programy/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_770c4\\fast
+        jom: parallel job execution disabled for Makefile
+        	E:\\Programy\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_770c4.dir\\build.make /nologo -L CMakeFiles\\cmTC_770c4.dir\\build
+        Building CXX object CMakeFiles/cmTC_770c4.dir/CheckFunctionExists.cxx.obj
+        	E:\\Programy\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_770c4.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-gxofyl --filter-prefix="Uwaga: w tym pliku:  " -- "E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\LABPOI~1\\AppData\\Local\\Temp\\1\\CheckFunctionExists.cxx.obj.6472.15.jom
+        CheckFunctionExists.cxx
+        Linking CXX executable cmTC_770c4.exe
+        	E:\\Programy\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_770c4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- "E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_770c4.dir\\objects1.rsp @C:\\Users\\LABPOI~1\\AppData\\Local\\Temp\\1\\cmTC_770c4.exe.6472.140.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_770c4.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_770c4.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_770c4.dir/manifest.res CMakeFiles\\cmTC_770c4.dir/manifest.rc
+        LINK Pass 1:
+        E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_770c4.dir\\objects1.rsp /out:cmTC_770c4.exe /implib:cmTC_770c4.lib /pdb:C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-gxofyl\\cmTC_770c4.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_770c4.dir/intermediate.manifest CMakeFiles\\cmTC_770c4.dir/manifest.res
+        LINK Pass 1: command "E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_770c4.dir\\objects1.rsp /out:cmTC_770c4.exe /implib:cmTC_770c4.lib /pdb:C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-gxofyl\\cmTC_770c4.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_770c4.dir/intermediate.manifest CMakeFiles\\cmTC_770c4.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: nie można otworzyć pliku "pthreads.lib"
+        jom: C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-gxofyl\\CMakeFiles\\cmTC_770c4.dir\\build.make [cmTC_770c4.exe] Error 2
+        jom: C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-gxofyl\\Makefile [cmTC_770c4\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:185 (include)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-i0rak4"
+      binary: "C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-i0rak4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-i0rak4'
+        
+        Run Build Command(s): E:/Programy/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_f3c62\\fast
+        jom: parallel job execution disabled for Makefile
+        	E:\\Programy\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_f3c62.dir\\build.make /nologo -L CMakeFiles\\cmTC_f3c62.dir\\build
+        Building CXX object CMakeFiles/cmTC_f3c62.dir/CheckFunctionExists.cxx.obj
+        	E:\\Programy\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_f3c62.dir\\CheckFunctionExists.cxx.obj.d --working-dir=C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-i0rak4 --filter-prefix="Uwaga: w tym pliku:  " -- "E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\LABPOI~1\\AppData\\Local\\Temp\\1\\CheckFunctionExists.cxx.obj.7852.0.jom
+        CheckFunctionExists.cxx
+        Linking CXX executable cmTC_f3c62.exe
+        	E:\\Programy\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_f3c62.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- "E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_f3c62.dir\\objects1.rsp @C:\\Users\\LABPOI~1\\AppData\\Local\\Temp\\1\\cmTC_f3c62.exe.7852.109.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_f3c62.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_f3c62.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_f3c62.dir/manifest.res CMakeFiles\\cmTC_f3c62.dir/manifest.rc
+        LINK Pass 1:
+        E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f3c62.dir\\objects1.rsp /out:cmTC_f3c62.exe /implib:cmTC_f3c62.lib /pdb:C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-i0rak4\\cmTC_f3c62.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f3c62.dir/intermediate.manifest CMakeFiles\\cmTC_f3c62.dir/manifest.res
+        LINK Pass 1: command "E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_f3c62.dir\\objects1.rsp /out:cmTC_f3c62.exe /implib:cmTC_f3c62.lib /pdb:C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-i0rak4\\cmTC_f3c62.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f3c62.dir/intermediate.manifest CMakeFiles\\cmTC_f3c62.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: nie można otworzyć pliku "pthread.lib"
+        jom: C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-i0rak4\\CMakeFiles\\cmTC_f3c62.dir\\build.make [cmTC_f3c62.exe] Error 2
+        jom: C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-i0rak4\\Makefile [cmTC_f3c62\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:259 (find_package)"
+      - "E:/Programy/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/.qtcreator/cmake-helper/maintenance_tool_provider.cmake:234 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-iszafw"
+      binary: "C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-iszafw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/Programy/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/LabPOIO-29/Desktop/Lab3/build/Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa/CMakeFiles/CMakeScratch/TryCompile-iszafw'
+        
+        Run Build Command(s): E:/Programy/Qt/Tools/CMake_64/bin/cmake.exe -E env VERBOSE=1 jom -f Makefile /nologo cmTC_a9ae7\\fast
+        jom: parallel job execution disabled for Makefile
+        	E:\\Programy\\Qt\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_a9ae7.dir\\build.make /nologo -L CMakeFiles\\cmTC_a9ae7.dir\\build
+        Building CXX object CMakeFiles/cmTC_a9ae7.dir/src.cxx.obj
+        	E:\\Programy\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_a9ae7.dir\\src.cxx.obj.d --working-dir=C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-iszafw --filter-prefix="Uwaga: w tym pliku:  " -- "E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\cl.exe" @C:\\Users\\LABPOI~1\\AppData\\Local\\Temp\\1\\src.cxx.obj.5024.110.jom
+        src.cxx
+        Linking CXX executable cmTC_a9ae7.exe
+        	E:\\Programy\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_a9ae7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests -- "E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe" /nologo @CMakeFiles\\cmTC_a9ae7.dir\\objects1.rsp @C:\\Users\\LABPOI~1\\AppData\\Local\\Temp\\1\\cmTC_a9ae7.exe.5024.860.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_a9ae7.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_a9ae7.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a9ae7.dir/manifest.res CMakeFiles\\cmTC_a9ae7.dir/manifest.rc
+        LINK Pass 1:
+        E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a9ae7.dir\\objects1.rsp /out:cmTC_a9ae7.exe /implib:cmTC_a9ae7.lib /pdb:C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-iszafw\\cmTC_a9ae7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a9ae7.dir/intermediate.manifest CMakeFiles\\cmTC_a9ae7.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe /nologo /manifest CMakeFiles\\cmTC_a9ae7.dir/intermediate.manifest /out:CMakeFiles\\cmTC_a9ae7.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe /fo CMakeFiles\\cmTC_a9ae7.dir/manifest.res CMakeFiles\\cmTC_a9ae7.dir/manifest.rc
+        FINAL LINK:
+        E:\\Programy\\Microsoft Visual Studio\\18\\Professional\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_a9ae7.dir\\objects1.rsp /out:cmTC_a9ae7.exe /implib:cmTC_a9ae7.lib /pdb:C:\\Users\\LabPOIO-29\\Desktop\\Lab3\\build\\Desktop_Qt_6_11_0_MSVC2022_64bit-Debugowa\\CMakeFiles\\CMakeScratch\\TryCompile-iszafw\\cmTC_a9ae7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a9ae7.dir/intermediate.manifest CMakeFiles\\cmTC_a9ae7.dir/manifest.res
+        
+      exitCode: 0
+...
