@@ -54,7 +54,7 @@ int main(int argc, char *argv[]) {
 
     Data test_data;
     test_data.data_type = "Test_Dataset";
-    test_data.values = {1.0, 2.0, 3.0, 4.0};
+    test_data.values = {1.5, 2.5, 3.5, 4.5};
 
     generator->set_value(test_data);
 
