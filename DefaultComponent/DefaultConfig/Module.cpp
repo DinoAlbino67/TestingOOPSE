@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: Module
-//!	Generated Date	: Tue, 9, Jun 2026  
+//!	Generated Date	: Tue, 16, Jun 2026  
 	File Path	: DefaultComponent/DefaultConfig/Module.cpp
 *********************************************************************/
 
@@ -43,7 +43,7 @@ void Module::get_active() {
     //#]
 }
 
-bool Module::is_ok() {
+unsigned int Module::is_ok() {
     NOTIFY_OPERATION(is_ok, is_ok(), 0, Default_Module_is_ok_SERIALIZE);
     //#[ operation is_ok()
     //#]

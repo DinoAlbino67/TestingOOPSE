@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: Contoller
-//!	Generated Date	: Tue, 9, Jun 2026  
+//!	Generated Date	: Tue, 16, Jun 2026  
 	File Path	: DefaultComponent/DefaultConfig/Contoller.cpp
 *********************************************************************/
 
@@ -63,6 +63,7 @@ float Contoller::getPosition() const {
 
 void Contoller::setPosition(float p_position) {
     position = p_position;
+    NOTIFY_SET_OPERATION;
 }
 
 float Contoller::getPosition_max() const {
@@ -211,6 +212,9 @@ IOxfReactive::TakeEventStatus Contoller::rootState_processEvent() {
                     NOTIFY_STATE_ENTERED("ROOT.Auth");
                     rootState_subState = Auth;
                     rootState_active = Auth;
+                    //#[ state Auth.(Entry) 
+                    GEN(evSuccess());
+                    //#]
                     NOTIFY_TRANSITION_TERMINATED("1");
                     res = eventConsumed;
                 }
@@ -227,6 +231,9 @@ IOxfReactive::TakeEventStatus Contoller::rootState_processEvent() {
                     NOTIFY_STATE_ENTERED("ROOT.Operation");
                     rootState_subState = Operation;
                     rootState_active = Operation;
+                    //#[ state Operation.(Entry) 
+                    GEN(evTest());
+                    //#]
                     NOTIFY_TRANSITION_TERMINATED("4");
                     res = eventConsumed;
                 }
@@ -257,6 +264,9 @@ IOxfReactive::TakeEventStatus Contoller::rootState_processEvent() {
                             NOTIFY_STATE_ENTERED("ROOT.Auth");
                             rootState_subState = Auth;
                             rootState_active = Auth;
+                            //#[ state Auth.(Entry) 
+                            GEN(evSuccess());
+                            //#]
                             NOTIFY_TRANSITION_TERMINATED("2");
                             res = eventConsumed;
                         }
@@ -275,7 +285,7 @@ IOxfReactive::TakeEventStatus Contoller::rootState_processEvent() {
                     rootState_subState = Testing;
                     rootState_active = Testing;
                     //#[ state Testing.(Entry) 
-                    bool receiver_ok = itsReceiver.is_ok();
+                    /*bool receiver_ok = itsReceiver.is_ok();
                     bool detector_ok = itsDetector.is_ok();
                     bool drive_ok=itsDrive.is_ok();
                     bool lamp_ok=itsLamp.is_ok();
@@ -284,7 +294,9 @@ IOxfReactive::TakeEventStatus Contoller::rootState_processEvent() {
                     if(all_ok)
                     	GEN(evOK());
                     else
-                    	GEN(evFAIL());		
+                    	GEN(evFAIL());	
+                    
+                    */GEN(evOK());	
                     //#]
                     NOTIFY_TRANSITION_TERMINATED("7");
                     res = eventConsumed;

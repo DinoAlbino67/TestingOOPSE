@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: Module
-//!	Generated Date	: Tue, 9, Jun 2026  
+//!	Generated Date	: Tue, 16, Jun 2026  
 	File Path	: DefaultComponent/DefaultConfig/Module.h
 *********************************************************************/
 
@@ -47,7 +47,7 @@ public :
     void get_active();
     
     //## operation is_ok()
-    bool is_ok();
+    unsigned int is_ok();
     
     ////    Additional operations    ////
     
